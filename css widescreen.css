@@ -1,0 +1,72 @@
+.container{
+    max-width: 85%;
+    margin: auto;
+    
+}
+
+#navbar ul a {
+    color: #fff;
+    padding: 2rem;
+    font-size: x-large;
+
+}
+
+.l-heading{
+    font-size: 4.5rem;
+    text-transform: uppercase;
+}
+
+.btn{
+    background-color: #08d9d6;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: x-large;
+    
+}
+
+.m-heading{
+    font-size: 3.5rem;
+}
+#about .about-content p{
+    font-size: 1.5rem;
+
+}
+
+#cta .l-heading{
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+
+#programs .boxes .box img{
+    width: 150px;
+}
+.box h2{
+    font-size: 2.5rem;
+}
+.box p{
+    font-size: 1.4rem;
+    margin: 0 5%;
+}
+
+.scrol{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(238, 155, 2);
+    box-shadow: 0 0 10px rgb(238, 155, 2);
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    
+}
+.scrol i{
+    font-size: 2rem;
+}
+
+

@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+
+.bg-dark{
+    background-color: #252A34;
+    opacity: 99%;
+    color: #FFF;
+}
+
+
+.text-primary{
+    color: #ff2e63;
+}
+
+#navbar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1rem;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#navbar .logo img{
+    width: 80px;
+}
+
+#navbar ul{
+    display: flex;
+    list-style:none;
+}
+#navbar ul a {
+    color: #fff;
+    padding: 1rem;
+    font-size: larger;
+
+}
+
+#navbar ul a:hover{
+    background-color: #08d9d6;
+    border-radius: 5px;
+}
+
+.text-center{
+    text-align: center;
+
+}
+
+.l-heading{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.py-1{
+    padding: 1.5rem 0;
+}
+.btn{
+    background-color: #08d9d6;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: larger;
+    
+}
+.btn:hover{
+    background-color: #ff2e63;
+
+}
+#showcase{
+    background: #252a34 url("Images/background1.jpg") no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.bg-light{
+    background-color: #eaeaea;
+    color: #252525;
+}
+#about .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+#about .about-content p{
+    font-size: larger;
+}
+.m-heading{
+    font-size: 3rem;
+}
+#about .about-content div,
+#about .about-content img{
+    flex: 1;
+}
+#about .about-content img{
+    width: 50%;
+    height: 30rem;
+    margin-left: 4rem;
+    border:  5px solid #fff;
+    
+}
+.box-shadow{
+    box-shadow:  0 0 2px #252525;
+}
+
+.lead{
+    font-size: 1.5rem;
+}
+
+#cta{
+    background: url("Images/cta\ background.jpg") no-repeat center center/cover;
+    color: #fff;
+}
+#cta .cta-content{
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.8);
+    padding: 6rem;
+}
+
+#cta .cta-content .container p{
+    margin-bottom: 1.5rem;
+}
+
+#programs{
+    color: #242a34;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#programs .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#programs .boxes .box{
+    flex: 1;
+    padding: 1rem 4rem;
+}
+
+#programs .boxes .box img{
+    width: 100px;
+}
+
+.p-1{
+    padding:  1.5rem;
+}
+
+#trainers .trainers-boxes{
+    display: flex;
+}
+#trainers .trainers-boxes .trainer-box{
+    background-color: #fff;
+    flex: 1;
+    border-radius: 5px;
+    margin: 1rem;
+
+}
+#trainers .trainers-boxes .trainer-box img{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#trainers .trainers-boxes .trainer-box ul{
+    display: flex;
+    list-style: none;
+}
+#trainers .trainers-boxes .trainer-box ul li {
+    font-size: 22px;
+}
+#trainers .trainers-boxes .trainer-box ul li a {
+    color: #000;
+    margin-right: 10px;
+    
+}
+#trainers .trainers-boxes .trainer-box ul li a:hover{
+    color: #ff2e63;
+}
+
+#trainers span{
+    font-size: larger;
+}
+#trainers h3{
+    font-size: xx-large;
+}
+
+.bg-primary{
+    background-color: #08d9d6;
+    color:#fff;
+}
+
+#contact {
+    display: flex;
+    
+}
+
+#contact .contact-us,
+#contact #map{
+    flex: 1;
+}
+
+#contact .contact-us input,
+#contact .contact-us textarea{
+    width: 100%;
+    padding: 00.75rem;
+    margin-bottom: 1rem;
+    outline: none;
+
+}
+
+.btn-dark{
+    background-color: #242a34;
+    color: #fff;
+    border: none;
+}
+
+#contact .contact-us .form-group{
+    display: flex;
+}
+#contact .contact-us .form-group input{
+    margin-right: 0.75rem;
+
+}
+
+
+.scrol{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(238, 155, 2);
+    box-shadow: 0 0 10px rgb(238, 155, 2);
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    
+}
+.scrol:active{
+    background-color: rgb(221, 144, 1);
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
